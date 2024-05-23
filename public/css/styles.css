@@ -1,0 +1,31 @@
+body {
+  background: wheat
+}
+.upload{
+  display: inline-block;
+
+}
+.clickpic{
+  border-width: 1px;
+ margin-left: 122.5px;
+}
+#file-input{
+  margin-top: 10px;
+  margin-left: 120px;
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+h5{
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: large;
+}
+.reg{
+  border: none;
+  background-color: white;
+  color: rgb(0, 110, 255);
+  text-decoration: underline;
+}

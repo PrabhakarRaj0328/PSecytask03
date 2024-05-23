@@ -1,0 +1,40 @@
+ body {
+        display: flex;
+      
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      video,
+      canvas {
+        border: 2px solid black;
+        width: 680px;
+        height: 620px;
+        margin-right: 500px;
+      }
+      #mark{
+        display: flex;
+        justify-content: center;
+      }
+      #controls {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+      }
+    #capture{
+      text-align: center;
+    }
+    .container{
+      height: 100%;
+      width: 800px;
+      display:flex;
+      justify-content:center;
+    }
+    .con{
+      display: flex;
+      justify-content: center;
+      padding-left: 400px;
+    }
+    
+     
