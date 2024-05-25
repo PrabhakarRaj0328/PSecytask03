@@ -10,3 +10,18 @@ will be on . Click the picture when the lighting and everything is ok as for my 
 console for it to work you need to reload once after tapping on mark attendance and then you can see in console it compares your face with every img in the database it might take a few
 seconds and in the console it will display if your face matched with anyone in the database person 1 equals matched and unknown means didnt match. The order might not be what was in the database
 in some cases. This part is only visible in Browser Console so i am sorry about that and thats all :)
+
+// How to SetUp Database
+I have used PostgresSQL. Please install it and Make a database with the name 'Attendance'.On installing for the first time it will ask you for a password set it to '2627#23' .
+Thats what i have used but if you have already install then either create a new server with the same password or change the password inside index.js where pg.Client is declared along with database name etc. Then tap on the query button its around top left on the topbar.
+Write the following:
+CREATE TABLE userdata(
+id SERIAL PRIMARY KEY,
+username VARCHAR(50),
+password VARCHAR(50),
+data text
+);
+
+After this you can insert data as you wish in this format
+INSERT INTO userdata(col 1, col 2 , ...)
+VALUES( val1,val2,...);
